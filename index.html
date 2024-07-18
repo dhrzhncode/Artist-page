@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHRZHN - Artist Page</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            background-image: url('texture.png'); /* Replace with your texture image path */
+            animation: animateTexture 20s linear infinite;
+        }
+
+        @keyframes animateTexture {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 100%; }
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        main {
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Artist name styles */
+        .artist-name h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Details styles */
+        .details {
+            margin-top: 10px;
+        }
+
+        .details p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Social buttons styles */
+        .social-buttons {
+            margin-top: 20px;
+        }
+
+        .social-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .instagram {
+            background: linear-gradient(135deg, #f76c6c, #6e45e2, #ffaa00);
+            color: white;
+        }
+
+        .instagram:hover {
+            background: linear-gradient(135deg, #e53935, #5d36aa, #ff9800);
+        }
+
+        .youtube {
+            background-color: #ff3b3f;
+            color: white;
+        }
+
+        .youtube:hover {
+            background-color: #ff5a5f;
+        }
+
+        .spotify {
+            background-color: #1db954;
+            color: white;
+        }
+
+        .spotify:hover {
+            background-color: #22b965;
+        }
+
+        /* Contact, About, Blog sections */
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="artist-name">
+            <h1>DHRZHN</h1>
+        </div>
+        <div class="details">
+            <p>Upcoming EDM/Dance Music Artist, Aiming to climb to the top Streams of music Industry</p>
+        </div>
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/dhrzhn" class="social-button instagram">Instagram</a>
+            <a href="https://youtube.com/@dhrzhn" class="social-button youtube">YouTube</a>
+            <a href="https://bit.ly/Dspo69" class="social-button spotify">Spotify</a>
+        </div>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Contact details of the artist</p>
+        </section>
+        <section class="about">
+            <h2>About</h2>
+            <p>About the artist</p>
+        </section>
+        <section class="video">
+            <h2>Video</h2>
+            <!-- Embedded YouTube video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lqE-YQAZqhg" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section class="blog">
+            <h2>Blog</h2>
+            <p>Latest blog posts or updates</p>
+        </section>
+    </main>
+</body>
+</html>
